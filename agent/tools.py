@@ -1,10 +1,3 @@
-"""
-Tools the agent can call mid-reasoning. Each tool is a plain Python
-function plus a JSON-schema description Claude uses to decide when to
-call it. This is what makes the pipeline "agentic" rather than a single
-prompt-and-response: the model decides which of these it needs, in
-what order, based on what it sees in the image.
-"""
 from __future__ import annotations
 
 import base64
